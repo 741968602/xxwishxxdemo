@@ -20,21 +20,21 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="手机号"
+            android:text="@string/string_register_phone"
             android:textSize="18dp" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="请输入手机号"
+            android:hint="@string/string_register_phone_hint"
             android:singleLine="true" >
         </EditText>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="验证码" />
+            android:text="@string/string_register_checknum" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,14 +47,14 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="验证码"
+            android:text="@string/string_register_checknum"
             android:textSize="18dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:hint="请输入验证码"
+            android:hint="@string/string_register_checknum_hint"
             android:singleLine="true" >
         </EditText>
     </LinearLayout>
@@ -69,14 +69,14 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="密码"
+            android:text="@string/string_register_passward"
             android:textSize="18dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:hint="请输入密码"
+            android:hint="@string/string_register_password_hint"
             android:singleLine="true" >
         </EditText>
     </LinearLayout>
@@ -91,14 +91,14 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="重复密码"
+            android:text="@string/string_register_passwardagain"
             android:textSize="18dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:hint="请再次输入密码"
+            android:hint="@string/string_register_passwordagain_hint"
             android:singleLine="true" >
         </EditText>
     </LinearLayout>
@@ -113,7 +113,27 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="注册" />
+            android:text="@string/string_register_register" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_register_itemtext"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_register_item"
+            android:textSize="12dp" />
     </LinearLayout>
 
 </LinearLayout>

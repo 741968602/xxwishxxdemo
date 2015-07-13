@@ -20,7 +20,7 @@
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="@string/string_login_phone"
+            android:text="@string/string_register_phone"
             android:textSize="18dp" />
 
         <EditText
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:hint="@string/string_login_phone_hint"
+            android:hint="@string/string_register_phone_hint"
             android:singleLine="true" >
         </EditText>
     </LinearLayout>
@@ -36,7 +36,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="2dp"
         android:orientation="horizontal" >
 
         <TextView
@@ -44,14 +44,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="@string/string_login_passward"
+            android:text="@string/string_register_passward"
             android:textSize="18dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:hint="@string/string_login_password_hint"
+            android:hint="@string/string_register_password_hint"
             android:singleLine="true" >
         </EditText>
     </LinearLayout>
@@ -70,7 +70,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="注册" />
+                android:text="@string/string_register_register" />
         </LinearLayout>
 
         <LinearLayout
@@ -82,7 +82,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="登录" />
+                android:text="@string/string_login_login" />
         </LinearLayout>
     </LinearLayout>
     

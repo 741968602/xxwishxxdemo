@@ -4,10 +4,18 @@
     <string name="app_name">iwish</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
-    <!-- 登录界面 -->
-     <string name="string_login_phone">手机号</string>
-     <string name="string_login_passward">密    码</string>
-    <string name="string_login_phone_hint">请输入手机号</string>
-    <string name="string_login_password_hint">请输入密码</string>
+    <!-- 登录界面&注册界面&重置密码-->
+    <string name="string_register_phone">手机号</string>
+    <string name="string_register_passward">密    码</string>
+    <string name="string_register_passwardagain">重复密码</string>
+    <string name="string_register_phone_hint">请输入手机号</string>
+    <string name="string_register_password_hint">请输入密码</string>
+    <string name="string_login_forget">忘记密码？</string>
+    <string name="string_register_passwordagain_hint">请再次输入密码</string>
+    <string name="string_register_checknum">验证码</string>
+    <string name="string_register_register">注册</string>
+    <string name="string_login_login">登录</string>
+    <string name="string_register_checknum_hint">请输入验证码</string>
+    <string name="string_register_itemtext">点击注册即表示您接受</string>
+    <string name="string_register_item"><u>服务条款</u></string>
 </resources>
