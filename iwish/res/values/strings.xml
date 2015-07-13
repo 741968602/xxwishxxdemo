@@ -4,5 +4,10 @@
     <string name="app_name">iwish</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    
+    <!-- 登录界面 -->
+     <string name="string_login_phone">手机号</string>
+     <string name="string_login_passward">密    码</string>
+    <string name="string_login_phone_hint">请输入手机号</string>
+    <string name="string_login_password_hint">请输入密码</string>
 </resources>
